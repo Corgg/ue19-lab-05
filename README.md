@@ -14,3 +14,20 @@ Cette application Python interroge une API publique pour afficher une blague. Pa
    ```bash
    git clone https://github.com/votre-utilisateur/ue19-lab-05.git
    cd ue19-lab-05
+
+2. Créer le container :
+   ```bash
+   docker build -t nom_de_app .
+
+3. Vérifier la bonne création du container :
+   ```bash
+   docker images
+
+4. Exécuter le container :
+   ```bash
+   docker run -it --rm nom_de_app
+
+#### Supprimer le container
+
+```bash
+docker rmi nom_de_app
