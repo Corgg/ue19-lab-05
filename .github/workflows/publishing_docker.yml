@@ -63,5 +63,5 @@ jobs:
           ignore-unfixed: true
           vuln-type: 'os,library'
           format: 'table'
-          #output: 'trivy-results.sarif'
+          output: 'trivy-results.sarif'
           severity: 'CRITICAL,HIGH'
